@@ -14,8 +14,12 @@ public class Main {
         int input = in.nextInt();
 
         if (input == 1) {
-            System.out.println();
+            System.out.println("You approach the cave....\n" +
+            "It dark and spooky...\n" +
+            "A large dragon jumps out in front of you! He open his jaws and...\n" +
+            "GOBBLE YOU DOWN IN ONE BITE!!!!");
         }
+
 
     }
 }
