@@ -18,6 +18,11 @@ public class Main {
             "It dark and spooky...\n" +
             "A large dragon jumps out in front of you! He open his jaws and...\n" +
             "GOBBLE YOU DOWN IN ONE BITE!!!!");
+        } else if (input == 2) {
+            System.out.println("You approach the cave....\n" +
+                    "It dark and spooky...\n" +
+                    "A large dragon jumps out in front of you! He open his jaws and...\n" +
+                    "SHARES HIS TREASURE WITH YOU!!!! WOOHOO!!");
         }
 
 
