@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
@@ -13,6 +14,13 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int input = in.nextInt();
 
+        try {
+            if (input > 2);
+            System.out.println("Invalid Input!! Try Again");
+        } catch (InputMismatchException e) {
+            System.out.println(e);
+        }
+
         if (input == 1) {
             System.out.println("You approach the cave....\n" +
             "It dark and spooky...\n" +
@@ -23,7 +31,8 @@ public class Main {
                     "It dark and spooky...\n" +
                     "A large dragon jumps out in front of you! He open his jaws and...\n" +
                     "SHARES HIS TREASURE WITH YOU!!!! WOOHOO!!");
-        }
+            }
+
 
 
     }
